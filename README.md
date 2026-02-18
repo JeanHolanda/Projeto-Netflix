@@ -26,4 +26,9 @@ Durante o desenvolvimento deste projeto, foi possível praticar:
 - Organização e legibilidade de código
 - Conceitos básicos de UI/UX aplicados na prática
 
-## Acesso ao projeto 👉🏽 
+## 👉🏽 Acesso ao projeto: https://jeanholanda.github.io/Projeto-Netflix/
+<p align= "center">
+  <img src="https://raw.githubusercontent.com/JeanHolanda/Projeto-Netflix/a3e9b3846fa6c5248bfaf60f1611f7cd5fac9cb6/assets/Projeto-Netflix.png.png" 
+  alt="Prévia do projeto Netflix UI Clone" 
+  width= 700px>
+</p>
