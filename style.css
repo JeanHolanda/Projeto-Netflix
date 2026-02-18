@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/4371a395-0e42-46ae-be36-5755eebc638b/web/BR-pt-20260209-TRIFECTA-perspective_9f2ad287-488d-4c2f-9f51-da1b2f7057a2_large.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85) 0%,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0.85) 100%);
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    padding: 24px 9.7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-netflix {
+    width: 148px;
+}
+
+select {
+    height: 32px;
+    width: 150px;
+    background-color: #111111;
+    color: #e5e4e4;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+select:focus {
+    background-color: #000000;
+    outline: none;
+}
+
+option {
+    background-color: #FFFFFF;
+    color: #111111;
+}
+
+.enter {
+    height: 32px;
+    width: 75px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.enter,
+.lets-go {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: transform 0.3s ease;
+}
+
+h1,h2, p {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+}
+
+h1 {
+    width: 600px;
+    font-weight: 900;
+    font-size: 58px;
+}
+
+h2 {
+    margin: 15px 0 34px 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+input {
+    height: 54px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #111111;
+    color: #FFF;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding-left: 16px;
+    border: 1.5px solid #858484;
+    outline: none;
+    box-shadow: none;
+}
+
+input::placeholder {
+    color: #A9A9A9;
+}
+
+.lets-go {
+    height: 54px;
+    width: 182px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 2px 0 0 22px;
+}
+
+.arrow {
+    height: 26px;
+    width: 26px;
+}
+
+.lets-go:hover, .enter:hover{
+    background-color: #B22222;
+    transition: background-color 0.3s ease;
+}
+
+.lets-go:active, .enter:active {
+    background-color: #DC143C;
+}
